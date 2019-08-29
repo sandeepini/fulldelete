@@ -2,8 +2,7 @@ package com.actitime.sampletest;
 
 
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.remote.session.FirefoxFilter;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
 public class SampleTest {
@@ -23,7 +22,7 @@ public class SampleTest {
 	@Test
 	public void deleteUserTest(){
 		
-		FirefoxDriver driver = new FirefoxDriver();
+		WebDriver driver = new ChromeDriver();
 		System.out.println("test3");
 		driver.close();
 		
